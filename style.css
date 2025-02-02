@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #33ccff 0%, #ffff66 100%);
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-sizing: 2px solid black;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#hotel-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #33ccff 0%, #ffff66 100%);
+}
+
+.hotel {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.hotel img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#booking-form {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #f8f9fa;
+    background: linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+}
+
+.aval {
+    text-align: center;
+    background: linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+}
+
+.book {
+    text-align: center;
+}
+
+.b1 {
+    background: linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+}
+
+#b1 {
+    background: linear-gradient(to bottom, #ccffff 0%, #ffcccc 100%);
+}
+
+.container {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    animation-name: vivek;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes vivek {
+    0%,
+    100% {
+        background-image: url(WhatsApp\ Image\ 2025-02-02\ at\ 8.40.22\ PM.jpeg);
+    }
+    25% {
+        background-image: url(WhatsApp\ Image\ 2025-02-02\ at\ 8.40.38\ PM.jpeg);
+    }
+    50% {
+        background-image: url(WhatsApp\ Image\ 2025-02-02\ at\ 8.41.14\ PM.jpeg);
+    }
+    75% {
+        background-image: url(WhatsApp\ Image\ 2025-02-02\ at\ 8.41.32\ PM.jpeg);
+    }
+    85% {
+        background-image: url(WhatsApp\ Image\ 2025-02-02\ at\ 8.42.06\ PM.jpeg);
+    }
+    95% {
+        background-image: url(WhatsApp\ Image\ 2025-02-02\ at\ 8.42.19\ PM.jpeg);
+    }
+    100% {
+        background-image: url(WhatsApp\ Image\ 2025-02-02\ at\ 8.42.32\ PM.jpeg);
+    }
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact-form button:hover {
+    background: #e5533d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+.sociall {
+    width: 200vh;
+    height: 25vh;
+    margin-top: 60px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+} */
+
+.media {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.media:hover {
+    color: rgb(201, 12, 201);
+    font-size: 30px;
+    margin-top: 30px;
+    transition: all 3s;
+}
+
+.social {
+    cursor: pointer;
+    display: flex;
+    gap: 40px;
+}
+
+.f1 {
+    background: linear-gradient(to bottom, #33ccff 0%, #ffff66 100%);
+}
